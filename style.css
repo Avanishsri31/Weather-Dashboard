@@ -7,14 +7,20 @@
   font-family: 'Open Sans', sans-serif;
 }
 body {
-  background: #E3F2FD;
+  color: #224;
+  background:url(https://source.unsplash.com/E8Ufcyxz514/2400x1823)center / cover no-repeat fixed;
 }
 h1 {
-  background: #5372F0;
+  background: rgba(255,255,255,.2);
+    z-index: 10;
+    position: relative;
+    backdrop-filter: blur(10px);
+    /* box-shadow: -15px 17px 17px rgba(255,255,255,0.2); */
+    flex: 40%;
   font-size: 1.75rem;
   text-align: center;
   padding: 18px 0;
-  color: #fff;
+  
 }
 .container {
   display: flex;
@@ -80,8 +86,12 @@ h1 {
   width: 100%;
 }
 .weather-data .current-weather {
-  color: #fff;
-  background: #5372F0;
+  background: rgba(255,255,255,.2);
+    z-index: 10;
+    position: relative;
+    backdrop-filter: blur(10px);
+    box-shadow: -15px 17px 17px rgba(255,255,255,0.2);
+    flex: 40%;
   border-radius: 5px;
   padding: 20px 70px 20px 20px;
   display: flex;
@@ -116,11 +126,16 @@ h1 {
   gap: 20px;
 }
 .weather-cards .card {
-  color: #fff;
+  
   padding: 18px 16px;
   list-style: none;
   width: calc(100% / 5);
-  background: #6C757D;
+  background: rgba(255,255,255,.2);
+    z-index: 10;
+    position: relative;
+    backdrop-filter: blur(10px);
+    box-shadow: -15px 17px 17px rgba(255,255,255,0.2);
+    flex: 40%;
   border-radius: 5px;
 }
 .weather-cards .card h3 {
